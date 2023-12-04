@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Zinnias</title>
+		<meta name="description" content="Venta de múltiples dispositivos teconológicos.">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css"> 
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+		
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body id="indexBody">
+		<header id="indexHeader">
+			<img id="gif1" alt="Curso de Lenguajes" src="img/gif.gif">
+			<img id="logo" alt="Curso de Lenguajes" src="img/Logo.png">
+			<img id="gif" alt="Curso de Lenguajes" src="img/gif.gif" >
+		</header>
+
+		<section id="contenidoTotal">
+			<section id="principal">
+				<article>
+					<a href="index.html" id="inicio">Inicio</a>
+					<a href="promociones.html" id="promociones">Promociones</a>
+					<a href="contactos.html" id="contactos">Contactos</a>
+				</article>
+			</section>
+
+			<section id="hipervinculos">
+				<article>
+					<form>
+						<div>
+							<h1 id="store">TIENDA</h1>
+							<a href="#"  onclick = "celulares()" id="celulares">Phones</a> 
+							<a href="#"  onclick = "computadoras()" id="computadoras">Computers</a> 
+							<a href="#"  onclick = "relojes()" id="relojes">Smartwatches</a> 
+						</div>
+					</form>
+				</article>
+			</section>
+
+			<section id="contenido">
+				<iframe id="contenidoFrame" src="celulares.html"></iframe> 
+			</section>
+
+			<aside id="indexAside" scrollbar="YES">
+				<h1 id="promotion">DESCUENTOS</h1>
+				<h1>AirPods</h1>
+				<p>(Segunda Generación)</p>
+				<a href="#" onclick = "promotionAirPod()" id="airpods"><img id="Airpods" alt="Curso de Lenguajes" src="img/Airpods.png" ></a>
+				<p>Antes: $242.25</p>
+				<h1>Ahora: $210.25</h1>
+				<br>
+				<h1>iPad Pro</h1>
+				<a href="#" onclick = "promotioniPad()" id="ipad"><img id="iPadPro" alt="Curso de Lenguajes" src="img/iPadPro.png" ></a>
+				<p>Antes: $484.95</p>
+				<h1>Ahora: $399.99</h1>
+				<br> 
+				<h1>Huawei P8</h1>
+				<a href="#" onclick = "promotionHuawei()" id="Huawei"><img id="HuaweiP8" alt="Curso de Lenguajes" src="img/HuaweiP8.png"></a>
+				<p>Antes: $221.170</p>
+				<h1>Ahora: $190.17</h1>
+			</aside>
+		</section>
+
+		<div class="modal-container" id="modal_container">
+			<div class="modal">
+				<h1>AirPods</h1>
+				<p id="sg">(Segunda Generación)</p>
+				<img id="Airpods" alt="Curso de Lenguajes" src="img/Airpods.png">
+				<br>
+				<p id="sg1">Carga mediante conector Lightning.<p>
+				<p id="sg1">Chip H1 para audífonos.</p>
+				<p id="sg1">Hasta 5 horas de audio con una sola carga.</p>
+				<p id="sg1">Bluetooth 5.0.</p>
+				<p id="sg1">Desde: $210.25</p>
+				<button id="close">Cerrar</button>
+			</div>
+		</div>
+
+		<div class="modal-container" id="modal_container1">
+			<div class="modal">
+				<h1>iPad Pro</h1>
+				<img id="iPadPro" alt="Curso de Lenguajes" src="img/iPadPro.png" >
+				<br>	
+				<p id="sg1">Chip M1 de Apple.<p>
+				<p id="sg1">Pantalla de 11" Liquid Retina.</p>
+				<p id="sg1">Chip H1 para audífonos.</p>
+				<p id="sg1">Sistema de cámaras Pro.</p>
+				<p id="sg1">8 GB de RAM.</p>
+				<p id="sg1">258 GB.</p>
+				<p id="sg1">Desde: $399.99</p>
+				<button id="close1">Cerrar</button>
+			</div>
+		</div>
+
+		<div class="modal-container" id="modal_container2">
+			<div class="modal">
+				<h1>Huawei P8</h1>
+				<img id="HuaweiP8" alt="Curso de Lenguajes" src="img/HuaweiP8.png">
+				<br>
+				<p id="sg1">Procesador Kirin 930 2GHz<p>
+				<p id="sg1">Pantalla de 5.2".</p>
+				<p id="sg1">SO Android 5.0.</p>
+				<p id="sg1">Cámara: 13 MP.</p>
+				<p id="sg1">3 GB de RAM.</p>
+				<p id="sg1">16 GB.</p>
+				<p id="sg1">Desde: $190.17</p>
+				<button id="close2">Cerrar</button>
+			</div>
+		</div> 
+
+		<footer id="indexFooter">
+			<p>Universidad de Costa Rica (UCR)</p>
+			<p>IF4101 - Lenguajes para Aplicaciones Comerciales</p>
+			<a href="https://youtu.be/GByi_j-7Q2E"><p>The New iPhone SE | A15 Bionic</p></a>
+		</footer>
+	</body>
+
+</html>

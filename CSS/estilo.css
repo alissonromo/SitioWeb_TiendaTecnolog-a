@@ -1,0 +1,736 @@
+/* Aplicarlo a todo el documento html. */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap'); 
+
+*{
+	border: 0;  /*Modificar el borde*/
+	margin: 0;  /*Margen*/
+	padding: 0; /*Espacio entre el contenido*/
+}
+
+aside#indexAside {
+	background: #00849C;
+	width: 22%;	
+	min-width: 22%;
+	overflow-y: scroll;
+	text-align: center;
+}
+
+article, footer, header, nav, section{
+	display: block; 
+}
+
+form{
+	width: 100%;
+}
+
+form div{
+	margin: 0.5em;
+}
+
+input[type="button"] {
+	border-radius: 0.25em;
+	color: #fff;
+	font-size: 0.90em;
+	padding: 0.25em;
+	font-family: 'Poppins', sans-serif;
+	background-color: #47a386;
+}
+
+a#contactos:hover, #promociones:hover, #inicio:hover{
+	color: skyblue;
+}
+
+a#contactos, #promociones, #inicio{ /* Modificar links. */
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	height: 1vh;
+	margin-right: 7%;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+a#computadoras:hover, #celulares:hover, #relojes:hover, #tablets:hover{
+	color: white;
+	font-size: 20px;
+	border-color: skyblue;
+	border-width: 2px;
+	border-style: ridge;
+	border-radius: 0.25em;
+}
+
+
+a#computadoras, #celulares, #relojes, #tablets{ /* Modificar links. */
+	color: #F2FFFB;
+	font-weight: bold;
+	text-decoration: none;
+	margin-bottom: 10vh;
+	text-align: center;
+	display: block;
+	font-family: 'Poppins', sans-serif;
+}
+
+body#indexBody{
+	color: #96DEEB;     
+	background: #FFF;
+	font-size: 1em; 
+	margin: 0 auto;
+	font-family: 'Poppins', sans-serif;
+}
+
+body#computadorasBody {
+	background-color: black;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+body#celularesBody{
+	color: #000;  
+	background: whitesmoke; 
+	font-size: 4vh; 
+	margin: 0 auto;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+
+button {
+	background-color: #47a386;
+	border: 0;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0.2);
+	color: #fff;
+	font-size: 14px;
+	padding: 10px 25px;
+	margin-top: 1em;
+}
+
+body#relojesBody {
+	background-color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+body#contactosB {
+	font-family: 'Poppins', sans-serif;
+}
+
+header#indexHeader {
+	background-color: white;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 100%; 
+	text-align: center;
+	height: 10.6vh;
+	font-family: 'Poppins', sans-serif;
+}
+
+header#celularesHeader {
+	background: #F2FFFB;
+	margin: 0 auto;
+	width: 100%; 
+	text-align: center;
+	height: 11.5vh;
+	font-family: 'Poppins', sans-serif;
+}
+
+header#contactos {
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+
+/*header h1, nav{ 
+	display: inline-block;
+	max-width: 100%;
+	vertical-align: middle;
+	font-family: 'Poppins', sans-serif;
+}
+*/
+h1#contactos {
+	margin-left: 3vh;
+	margin-top: 2vh;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1#store{
+	text-align: center;
+	margin-bottom: 15vh;
+	margin-top: 5vh;
+	font-size: 4.5vh;
+}
+
+h1#promotion{
+	text-align: center;
+	margin-bottom: 5vh;
+	margin-top: 5vh;
+	font-size: 4.5vh;
+}
+
+iframe{
+	background: #00849C;
+	top: 1em;
+	min-width: 22%;
+	width: 100%;
+	height: 100%;
+	border-radius: 1em;
+}
+
+iframe#mapa {
+	width: 60%;
+	height: 40vh;
+}
+
+img#appleImg{
+	margin-right: 1.5vh;
+	margin-left: 3vh;
+	width: 11vh;
+	float: left;	
+}
+
+img#appleMac {
+	width: 80%;
+
+}
+
+img#Airpods {
+	width: 36%;
+	margin-bottom: 3vh;
+	margin-top: 2vh;
+}
+
+img#iPadPro {
+	width: 70%;
+	margin-bottom: 1vh;
+
+}
+
+img#HuaweiP8 {
+	width: 40%;
+	margin-left: 3vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+
+img#gif {
+	/*margin-top: -30vh;*/
+	width: 40%;
+	float: right;
+	height: 10vh;
+}
+
+img#gif1 {
+	/*margin-top: -30vh;*/
+	width: 40%;
+	height: 10vh;
+	float: left;
+}
+
+img#HPLogo {
+	width: 7%;
+	margin-top: 1vh;
+	margin-left: 3vh;
+}
+
+img#Pavilion {
+	width: 43%;
+}
+
+
+img#iMac {
+	width: 50%;
+}
+
+img#samsungLogo {
+	margin-left: 3vh;
+	width: 30vh;
+	float: left;	
+}
+
+img#SamsungW1 {
+	width: 55%;/*
+	float: right;*/
+	margin-right: 4vh;
+}
+
+img#SamsungW2, #SamsungW3  {
+	width: 33%;
+	height: 70vh;
+	margin: 0 auto;
+}
+
+img#SamsungW4 {
+	width: 32.8%;
+	height: 70vh;
+}
+
+img#phone12 {
+	width: 52vh;
+	float: left;
+	margin-left: 2vh;
+	margin-right: 3vh;	
+	margin-top: 5vh;
+}
+
+img#phone12Img {
+	width: 63.5vh;
+	float: right;
+	margin-right: 3vh;	
+	margin-top: 7vh;
+}
+
+img#galaxyS20 {
+	width: 38vh;
+	float: left;
+	margin-left: 3.5vh;	
+	margin-right: 3vh;	
+}
+
+img#galaxyS9 {
+	width: 45vh;
+	float: right;
+	margin-right: 2em;
+	margin-top: 1em;	
+}
+
+img#logo {
+	margin-top: 0.6vh;
+	text-align: center;
+	width: 15%;
+
+}
+
+p#pS9 {
+	margin-right: 58vh;
+}
+
+.modal-container {
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.3);
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	pointer-events: none;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+.modal {
+	background-color: #fff;
+	width: 600px;
+	max-width: 100%;
+	padding: 30px 50px;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0.2);
+	text-align: center;
+}
+
+.modal h1 {
+	margin: 0;
+}
+
+.modal img#Airpods{
+	height: 25vw;
+	float: left;
+	margin-right: 1em;
+}
+
+.modal img#iPadPro{
+	height: 29vw;
+	float: left;
+	margin-right: -1em;
+}
+
+.modal img#HuaweiP8{
+	height: 28vw;
+	float: left;
+	margin-right: 2em;
+}
+
+.modal p#sg {
+	opacity: 0.7;
+	font-size: 17px;
+	text-align: center;
+}
+
+.modal p#sg1 {
+	opacity: 0.7;
+	font-size: 17px;
+	margin-top: 1em;
+	margin-left: 2.5em;
+	color: black;
+	text-align: left;
+}
+
+li#contactos {
+	margin-left: 8vh;
+	margin-top: 2vh;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+aside#porMayor {
+	background-color: white;
+	width: 100%;
+	height: 80vh;
+	color: black;
+}
+
+
+body#promocion {
+	font-family: 'Poppins', sans-serif;
+	background-color: ghostwhite;	
+	text-align: center;
+}
+
+header#promo {
+	background-color: white;
+	width: 100%;
+	color: black;
+	margin-top: 0;
+	height: 7.5vh;	
+}
+
+img#AirpodsD {
+	width: 5vw;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+img#iPadProD {
+	width: 11vw;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+img#HuaweiP8D {
+	width: 5.8vw;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+img#SamsungGS9P, #GalaxyA2 {
+	width: 5vw;
+	margin-bottom: 0.8em;
+}
+
+img#iPadProP {
+	width: 10vw;
+}
+
+img#Phone12P {
+	width: 5vw;
+}
+
+img#SWatchesPM {
+	width: 13vw;
+}
+
+img#iPhoneXSMaxPM {
+	width: 6vw;
+}
+
+section#promocion{
+	background-color: white;
+	width: 100%;
+	height: 80vh;
+	color: black;
+	display: inline-block;
+}
+
+section#descuentos {
+	background-color: white;
+	width: 100%;
+	height: 80vh;
+	color: black;/*
+	display: inline-block;*/
+}
+
+section#AirpodDS {
+	background-color: white;
+	width: 20%;
+	height: 50vh;
+	margin-left: 4em;
+	margin-top: 1vh;
+	border-width: thin;
+	border-color: lightgrey;
+	border-style: ridge;
+	float: left;
+	/*border-radius: initial;*/
+}
+
+section#iPadProDS {
+	background-color: white;
+	width: 20%;
+	height: 50vh;
+	margin-right: 10em;
+	margin-top: 1vh;
+	border-width: thin;
+	border-color: lightgrey;
+	border-style: ridge;
+	float: right;
+	margin-right: 40vw;
+	/*border-radius: initial;*/
+}
+
+section#HuaweiP8DS {
+	background-color: white;
+	width: 20%;
+	height: 50vh;
+	margin-right: 4em;
+	margin-top: -50.5vh;
+	border-width: thin;
+	border-color: lightgrey;
+	border-style: ridge;
+	float: right;
+	/*border-radius: initial;*/
+}
+
+section#Promo1 {
+	background-color: white;
+	width: 20%;
+	height: 50vh;
+	margin-right: 20em;
+	margin-top: 1vh;
+	border-width: thin;
+	border-color: lightgrey;
+	border-style: ridge;
+	float: right;
+}
+
+section#Promo2 {
+	background-color: white;
+	width: 20%;
+	height: 50vh;
+	margin-left: 20em;
+	margin-top: 1vh;
+	border-width: thin;
+	border-color: lightgrey;
+	border-style: ridge;
+	float: left;
+}
+
+
+section#SamsungWatchesPMS {
+	background-color: white;
+	width: 20%;
+	height: 50vh;
+	margin-left: 20em;
+	margin-top: 1vh;
+	border-width: thin;
+	border-color: lightgrey;
+	border-style: ridge;
+	float: left;
+}
+
+section#iPhoneXSMaxPMS {
+	background-color: white;
+	width: 20%;
+	height: 50vh;
+	margin-right: 20em;
+	margin-top: 1vh;
+	border-width: thin;
+	border-color: lightgrey;
+	border-style: ridge;
+	float: right;
+}
+
+
+
+section#apple {
+	width: 100%;
+	height: 12vh;
+	background-color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+section#appleCompu {
+	width: 50%;
+	height: 11vh;
+	background-color: black;
+	color: grey;
+	font-family: 'Poppins', sans-serif;
+}
+
+section aside, #hipervinculos, #contenido {
+	border-radius: 1em;
+	display: inline-block;
+	margin: 0% auto;
+	max-width: 100%;
+	padding: 0.25em;
+	margin-bottom: 0.2%;
+	margin-top: 0.2%;
+	vertical-align: top;
+	height: 77.5vh;
+	font-family: 'Poppins', sans-serif;
+}
+
+section#contenido {
+	background-color: white;
+	width: 60.5%;
+	font-family: 'Poppins', sans-serif;
+}
+
+section#contenidoTotal{
+	background: #AAA; 
+	margin: 0 auto;
+	max-width: 100%; 
+	text-align: center;
+	height: 85VH;
+	background-color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+#SamsungName h1 {
+	display: inline;
+}
+
+#SamsungWatches h1 {
+	font-size: 6vh;
+	text-decoration-style: wavy;
+	font-family: 'Poppins', sans-serif;
+}
+
+section#contactosInfo {
+	width: 100%;
+	background-color: white;
+	height: 120vh;
+	font-family: 'Poppins', sans-serif;
+}
+
+section#galaxy {
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+	width: 50%;
+	height: 5.5vh;
+}
+
+section#galaxy1 {
+	width: 100%;
+	height: 99.5vh;
+	background: skyblue;
+	font-size: 3.3vh;
+}
+
+section#galaxy2 {
+	width: 100%;
+	height: 105vh;
+	text-indent: 5vh;
+	background-color: white;
+	font-size: 3.3vh;
+}
+
+section#hipervinculos {
+	background: #00849C;
+	width: 15%;
+	text-align: left;
+}
+
+section#HP {
+	background-color: white;
+	height: 11vh;
+	width: 100%;
+	vertical-align: middle;
+}
+
+section#HP1 {
+	background-color: white;
+	height: 100vh;
+	width: 100%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+section#Mac1{
+	background-color: black;
+	height: 95vh;
+	text-align: center;
+	color: whitesmoke;
+}
+
+section#Mac2{
+	background-color: white;
+	height: 110vh;
+	vertical-align: middle;
+	text-align: center;
+	margin-top: 2vh;
+}
+
+section#mapa {
+	text-align: center;
+}
+
+section#SamsungWatches {
+	background-color: white;
+	width: 100%;
+	height: 95vh;
+	vertical-align: middle;
+	text-align: center;
+}
+
+section#SamsungActive2  {
+	background-color: white;
+	width: 100%;
+	height: 68.9vh;
+	display: inline-block;
+}
+
+section#SamsungName {
+	background-color: white;
+	width: 100%;
+	height: 58vh;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 3.2vh;
+	text-decoration-style: wavy;
+	font-family: 'Poppins', sans-serif;
+}
+
+section#phone1 {
+	width: 100%;
+	height: 115vh;
+	background-color: white;
+	font-size: 3.3vh;
+}
+
+section#phone2 {
+	width: 100%;
+	height: 115vh;
+	background-color: black;
+	color: whitesmoke;
+	text-indent: 5vh;
+	font-size: 3.3vh;
+}
+
+section#principal {
+	background: #000;
+	margin: 0 auto;
+	vertical-align: middle;
+	height: 6vh;
+	width: 100%;
+}
+
+.show {
+	pointer-events: auto;
+	opacity: 1;
+}
+
+footer#indexFooter{
+	background-color: white;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height: 6%;
+	color: black;
+}
+
+footer p {
+	float: left;
+	margin-left: 7.5vw;
+	margin-top: 1vh;
+}
+
